@@ -38,3 +38,4 @@ To submit a knapsack problem to be solved, POST JSON of the form
 
 ```
 to /api/. The response contains url to /api/<request_id>/ where the answer is given in knapsack_problem.in_knapsack_json along with other info. The format of a response is JSON unless user agent is a browser.
+All requests should use simple auth with admin username/password.
